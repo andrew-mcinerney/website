@@ -1,0 +1,12 @@
+---
+title: "Papers"
+---
+
+## Preprints
+
+**McInerney, A** and Burke, K (2022). A Statistically-Based Approach to Feedforward Neural Network Model Selection. *arXiv preprint arXiv:2207.04248*. [[link]](https://arxiv.org/abs/2207.04248)
+
+
+## Conference Proceedings
+
+**McInerney, A** and Burke, K (2022). Statistical Information-Criteria-Based Neural Network Input and Hidden Node Selection. *In Proceedings of the 36th International Workshop on Statistical Modelling*. [[link]](https://www.iwsm2022.com/wp-content/uploads/2022/08/IWSM2022Proceedings.pdf)

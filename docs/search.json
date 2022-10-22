@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Andrew McInerney",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Education\n\n\nGraduation Cap Ph.D. in Statistics (2020 - Present) | University of Limerick\n\n\n\nGraduation Cap BSc. in Mathematical Science (2016 - 2020) | University of Limerick\n\n\n\n\nExperience\n\n\nChalkboard eModerator in Data Analytics (January 2022 - Present) | University of Limerick\n\n\n\nCar Data Science Intern (June 2021 - August 2021) | Hertz\n\n\nMicroscope Data Analytics Intern (January 2019 - August 2019) | Regeneron"
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "McInerney, A and Burke, K (2022). A Statistically-Based Approach to Feedforward Neural Network Model Selection. arXiv preprint arXiv:2207.04248. [link]"
+  },
+  {
+    "objectID": "papers.html#conference-proceedings",
+    "href": "papers.html#conference-proceedings",
+    "title": "Papers",
+    "section": "Conference Proceedings",
+    "text": "Conference Proceedings\nMcInerney, A and Burke, K (2022). Statistical Information-Criteria-Based Neural Network Input and Hidden Node Selection. In Proceedings of the 36th International Workshop on Statistical Modelling. [link]"
   }
 ]
