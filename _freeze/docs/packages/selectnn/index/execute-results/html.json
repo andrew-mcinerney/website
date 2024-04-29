@@ -1,0 +1,15 @@
+{
+  "hash": "35ea7756f1a47dc7fec49d3e21123c0b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: selectnn\ndescription: |\n  Statistically-based model selection for neural networks\nformat: \n  html: \n    css: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css\n#date: UPDATE # initial commit date? Publish date? No date?\nauthor: \n  - name: Andrew McInerney\nsite-url: https://andrew-mcinerney.github.io/selectnn/\nimage: ../../images/selectnn.png\n# N.B. Don't use \"\" in image-alt\n#image-alt: |\n#categories:\n#  - TAG_1\n#  - TAG_2\ntwitter-card:\n# uncomment lines below for different title and description to post\n#  title: |\n#  description: |\n# uncomment for different image to post\n#  image: |\n#  image-alt: |\n#  defaults to 500 x 500 summary: uncomment lines below for large card\n image-width: 400\n image-height: 314\n card-style: \"summary_large_image\"\ndraft: false\nengine: knitr\n---\n\n\n## Main resources\n\n::: {.grid .text-center}\n\n\n::: {.g-col-12 .g-col-sm-6}\n<div class=\"card h-100 border-light\">\n<a href=\"https://github.com/andrew-mcinerney/selectnn\" class=\"card-link heading-font\"><i class=\"fa-brands fa-github-square\"></i> source</a>\n</div>\n\n:::\n\n::: {.g-col-12 .g-col-sm-6}\n<div class=\"card h-100 border-light\">\n<a href=\"https://andrew-mcinerney.github.io/selectnn/reference/index.html\" class=\"card-link heading-font\">{{< fa book >}} documentation</a>\n</div>\n\n:::\n\n:::\n\n\n## Overview\n\n### Installation\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# install.packages(\"devtools\")\ndevtools::install_github(\"andrew-mcinerney/selectnn\")\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
