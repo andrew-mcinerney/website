@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Andrew McInerney",
     "section": "",
-    "text": "Education\n\n\nGraduation Cap Ph.D. in Statistics (2020 - Present) | University of Limerick\n\n\n\nGraduation Cap BSc. in Mathematical Science (2016 - 2020) | University of Limerick\n\n\n\n\nExperience\n\n\nChalkboard eModerator in Data Analytics (January 2022 - Present) | University of Limerick\n\n\n\nCar Data Science Intern (June 2021 - August 2021) | Hertz\n\n\nMicroscope Data Analytics Intern (January 2019 - August 2019) | Regeneron"
+    "text": "I am a PhD student at the University of Limerick, Ireland, working on statistical modelling and neural networks.        \n\n\nABOUT\n\n\n\n\n\n\n\n\n\n\n\n\n\nHere are the references of my published and working papers.\n\n\nRESEARCH\n\n\n\n\n\n\n\n\nPart of my work is writing code. Here are links to their repos, websites and any other resources.\n\n\nCODE"
   },
   {
     "objectID": "papers.html",
@@ -19,5 +19,194 @@
     "title": "Papers",
     "section": "Conference Proceedings",
     "text": "Conference Proceedings\nMcInerney, A and Burke, K (2022). Statistical Information-Criteria-Based Neural Network Input and Hidden Node Selection. In Proceedings of the 36th International Workshop on Statistical Modelling. [link]"
+  },
+  {
+    "objectID": "contents/about.html",
+    "href": "contents/about.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "I’m a Ph.D. student with the SFI Centre for Research Training in Foundations of Data Science based in the Department of Mathematics and Statistics at the University of Limerick. My current research is centered on a statistical-modelling approach to neural networks, with a particular focus on model selection, uncertainty quantification, and interpretation. This work is supervised by Kevin Burke.\n\n\n\n\n\n\n\n\n\n> EDUCATION\n\n\n\n\n\n\nUniversity of Limerick\n> PhD in Statistics\n\n\n\n\n\nLimerick, Ireland\nSep. 2020 - Present\n\n\n\n\n\n\nUniversity of Limerick\n> BSc in Mathematical Science\n\n\n\n\n\nLimerick, Ireland\nSep. 2016 - May 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n> PROFESSIONAL EXPERIENCE\n\n\n\n\n\n\nData Science Intern\n> Hertz\n\n\n\n\n\nDublin, Ireland\nJun. 2021 - Aug. 2021\n\n\n\n\n\n\nData Analytics Intern\n> Regeneron\n\n\n\n\n\nLimerick, Ireland\nJan. 2019 - Aug. 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n> TEACHING EXPERIENCE\n\n\n\n\n\n\nGraduate Teaching Assitant\n> Advanced Data Analysis, Applied Business Statistics, Applied Data Analysis, Engineering Mathematics, Probability Models, Statistics for Data Analytics, Stochastic Processes\n\n\n\n\n\nUniversity of Limerick\nSep. 2020 - Present\n\n\n\n\n\n\neModerator\n> Professional Diploma in Data Analytics\n\n\n\n\n\nUniversity of Limerick\nJan. 2022 - May 2023"
+  },
+  {
+    "objectID": "contents/contact.html",
+    "href": "contents/contact.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "You can drop me an e-mail or find me on elsewhere online:\n\n\n\n E-Mail\n\n\n\n\n Github\n\n\n\n\n Linkedin"
+  },
+  {
+    "objectID": "contents/research.html",
+    "href": "contents/research.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "My research focuses on the application on statistical-modelling-based methodology to neural networks. Here are a list of my research outputs.\n\n\n\n\n\n\n\n\n\n\n2023\n\n\n\n\n> \nA statistically-based approach to feedforward neural network model selection\n\nAndrew McInerney and Kevin Burke\n\n\n\n\n\n\n\nFeb. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023\n\n\n\n\n> \nFeedforward neural networks from a statistical-modelling perspective\n\n\n-\n37th International Workshop on Statistical Modelling\n\nAndrew McInerney and Kevin Burke\n\n\n\n\n\n\nJul. 2023"
+  },
+  {
+    "objectID": "contents/ressources.html",
+    "href": "contents/ressources.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "Here are the technical and design ressources I used to build this website.\n\n\nThe Quarto documentation.\n\n\nThe Bootstrap 5 documentation.\n\n\nThe website of Ella Kaye.\n\n\nThe website of Matthieu Hanf.\n\n\nThe Academicons website.\n\n\nThe Source Code Pro fonts Github repository."
+  },
+  {
+    "objectID": "contents/talks.html",
+    "href": "contents/talks.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "2023\n\n\n\n\n> \nFunctional multilevel modeling of the influence of the menstrual cycle on the performance of female cyclists\n\n\n-\n37th International Workshop on Statistical Modeling\n\nSteven Golovkine, Tom Chassard, Alice Meignié, Emmanuel Brunet, Jean-François Toussaint and Juliana Antero\n\n\n\n\n\nJul. 2023\n\n\n\n\n\n\n> \nOn the geometric interpreation of multivariate functional principal components analysis and the usage of the Gram matrix\n\n\n-\n54èmes Journées de Statistique\n\nSteven Golovkine, Edward Gunning, Andrew J. Simpkin and Norma Bargary\n\n\n\n\n\nJun. 2023\n\n\n\n\n\n\n> \nOn the geometric interpreation of multivariate functional principal components analysis and the usage of the Gram matrix\n\n\n-\n43rd Conference on Applied Statistics in Ireland\n\nSteven Golovkine, Edward Gunning, Andrew J. Simpkin and Norma Bargary\n\n\n\n\n\nMay. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n2022\n\n\n\n\n> \nOn the influence of the menstrual cycle on female athlete performance: A case study of cycling\n\n\n-\nSIM Talk\n\nJuliana Antero, Tom Chassard, Steven Golovkine and Alice Meignié\n\n\n\n\n\nOct. 2022\n\n\n\n\n\n\n> \nLearning the regularity of the curves in functional data analysis with applications\n\n\n-\nCSDA & EcoSta Workshop on Statistical Data Science\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nAug. 2022\n\n\n\n\n\n\n> \nLearning the regularity of the curves in functional data analysis with applications\n\n\n-\n53èmes Journées de Statistique\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nJun. 2022\n\n\n\n\n\n\n> \nMultivariate functional data clustering using unsupervised binary trees\n\n\n-\n10ème Journées YSP (Young Statisticians and Probabilists)\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nFeb. 2022\n\n\n\n\n\n\n> \nMultivariate functional data clustering using unsupervised binary trees\n\n\n-\nSIM Talk\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nFeb. 2022\n\n\n\n\n\n\n\n\n\n\n\n\n2021\n\n\n\n\n> \nAdaptive optimal estimation of irregular mean and covariance functions\n\n\n-\n14th International Conference of the ERCIM WG on Computational and Methodological Statistics\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nDec. 2021\n\n\n\n\n\n\n> \nClustering multivariate functional data using unsupervised binary trees\n\n\n-\n22nd European Young Statisticians Meeting\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nSep. 2021\n\n\n\n\n\n\n> \nClassification de données fonctionnelles multivariées par arbres binaires non-supervisées\n\n\n-\n52èmes Journées de Statistique\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nJun. 2021\n\n\n\n\n\n\n> \nMultivariate functional data clustering using unsupervised binary trees\n\n\n-\nMathematics Seminars, Hunter College\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nMar. 2021\n\n\n\n\n\n\n\n\n\n\n\n\n2020\n\n\n\n\n> \nMultivariate functional data clustering using unsupervised binary trees\n\n\n-\n13th International Conference of the ERCIM WG on Computational and Methodological Statistics\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nDec. 2020\n\n\n\n\n\n\n> \nMultivariate functional data clustering using unsupervised binary trees\n\n\n-\nStatistical Modeling with Applications\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nNov. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n2019\n\n\n\n\n> \nDonnées fonctionnelles avec erreur hétéroscédastique\n\n\n-\n51èmes Journées de Statistique\n\nSteven Golovkine, Nicolas Klutchnikov and Valentin Patilea\n\n\n\n\n\nJun. 2019\n\n\n\n\n\n\n> \nClustering multivariate functional data defined on random domains: An application to vehicle trajectories analysis\n\n\n-\nMASCOT-NUM\n\nSteven Golovkine\n\n\n\n\n\nMar. 2019\n\n\n\n\n\n\n\n\n\n\n\nThe emojis along the presentations refer to:\n - link to the conference website.\n - link to the presentation slides."
+  },
+  {
+    "objectID": "contents/resources.html",
+    "href": "contents/resources.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "Here are the technical and design ressources I used to build this website.\n\n\nThe Quarto documentation.\n\n\nThe Bootstrap 5 documentation.\n\n\nThe website of Ella Kaye.\n\n\nThe website of Matthieu Hanf.\n\n\nThe Academicons website.\n\n\nThe Source Code Pro fonts Github repository."
+  },
+  {
+    "objectID": "contents/code.html",
+    "href": "contents/code.html",
+    "title": "Andrew McInerney",
+    "section": "",
+    "text": "interpretnn\n\n\nInterpreting neural networks from a statistical perspective\n\n\n\nAndrew McInerney\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nselectnn\n\n\nStatistically-based model selection for neural networks\n\n\n\nAndrew McInerney\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "packages/distilltools/index.html#main-resources",
+    "href": "packages/distilltools/index.html#main-resources",
+    "title": "distilltools",
+    "section": "Main resources",
+    "text": "Main resources\n source  documentation  hex sticker"
+  },
+  {
+    "objectID": "packages/distilltools/index.html#additional-resources",
+    "href": "packages/distilltools/index.html#additional-resources",
+    "title": "distilltools",
+    "section": "Additional resources",
+    "text": "Additional resources\ndistilltools: Creating a Curated, Collaborative Community Package\nA book chapter in The Future of Data Science from Data Science by Design, outlining the vision for {distilltools}\n book chapter\nA blog post about the {distilltools} function for modifying the default syntax highlighting scheme:\n blog post\nA blog post giving a sneak-peek at {distilltools}:\n blog post"
+  },
+  {
+    "objectID": "packages/distilltools/index.html#overview",
+    "href": "packages/distilltools/index.html#overview",
+    "title": "distilltools",
+    "section": "Overview",
+    "text": "Overview\n{distilltools} is collection of tools to support the creation and styling of content on websites created using the distill package in R.\nIt is in the very early stages of development. I am actively seeking contributions - both ideas and code - to help build the package to be broadly useful to a wide variety of distill users. The idea is for the package to become a curated, collaborative, community-driven project. In terms of relationship between packages, I hope in time that distilltools can be for distill something like what xaringanExtra and xaringanthemer are for xaringan. Some of what I have in mind may sit better within the distill package itself, and I will be reaching out to the distill team about that.\n\nUpdate (2022-05-29)\nDevelopment on distilltools has been on a bit of a hiatus recently, but I will resume work on it. When I do, I want to ensure the package also has the functionality to support websites created in R with Quarto, and so I may also rename the package.\nAn article on distilltools, and my intentions for it, is featured in The Future of Sata Science anthology (written October 2021, published June 2022).\n\n\nInstallation\n\n# install.packages(\"remotes\")\n# requires remotes >= 2.2\nremotes::install_github(\"EllaKaye/distilltools\")\n\n# for remotes < 2.2\nremotes::install_github(\"EllaKaye/distilltools\", ref = \"main\")\n\n\n\nFunctionality\nThere are currently five exported functions in distilltools.\n\nBlogging functions\n\ncreate_post_from_template(): this function works almost identically to distill::create_post(), but extends it with an added path argument that specifies an .Rmd file to use as a template for the post. This function can also be run interactively using the Create post (from template) RStudio addin. See ?create_post_from_template and ?available_templates for details on using your R Markdown templates with the addin.\navailable_templates(): lists a named vector of available R Markdown templates for new posts, talks, etc.\ncreate_talk(): a wrapper around distill::create_post() that creates a post in the talk directory and includes buttons (made with icon-link()) for slides (both web and pdf), material, video and project. These can easily be edited in the resulting .Rmd file. This function was inspired by Eric Ekholm’s blog post.\n\n\n\nStyling functions\n\nicon_link(): creates the html for a link button with icon and text. Output of icon_link will need styling via the icon-link class to make it look like a button. For more details on this function, see this blog post from John Paul Helveston. For examples of styling the icon-link class, see John Paul Helveston’s css and Ella Kaye’s css.\nmodify_default_highlighting(): allows the user to swap the five colours used in {distill}’s default syntax highlighting scheme with five colours of their choice, and saves the resulting .theme file into the working directory.\n\n\n\n\nContributing to {distilltools}\nWe’re actively seeking contributions!\n\nDo you have a distill website? If so, what tools would you help you in the creation, upkeep and styling of your site? Let us know by with an issue.\nDo you have functions that you’ve written for your distill workflow? If they help you, they’ll almost certainly be helpful to others to. Consider submitting (generalized) versions of them for inclusion in distilltools!\n\nThere are lots of other ways to support and contribute to {distilltools}. Please see the contributing guide for more details.\n\n\nCode of conduct\nPlease note that the distilltools project is released with a contributor code of conduct. By contributing to this project, you agree to abide by its terms."
+  },
+  {
+    "objectID": "packages/BradleyTerryScalable/index.html#main-resources",
+    "href": "packages/BradleyTerryScalable/index.html#main-resources",
+    "title": "BradleyTerryScalable",
+    "section": "Main resources",
+    "text": "Main resources\n source  documentation  hex sticker"
+  },
+  {
+    "objectID": "packages/BradleyTerryScalable/index.html#additional-resources",
+    "href": "packages/BradleyTerryScalable/index.html#additional-resources",
+    "title": "BradleyTerryScalable",
+    "section": "Additional resources",
+    "text": "Additional resources\nAn overview of the BradleyTerryScalable package (2022):\n slides  materials\nA presentation introducing the BradleyTerryScalable package (2017):\n slides  materials"
+  },
+  {
+    "objectID": "packages/EMK/index.html#main-resources",
+    "href": "packages/EMK/index.html#main-resources",
+    "title": "EMK",
+    "section": "Main resources",
+    "text": "Main resources\n source  hex sticker"
+  },
+  {
+    "objectID": "packages/EMK/index.html#additional-resources",
+    "href": "packages/EMK/index.html#additional-resources",
+    "title": "EMK",
+    "section": "Additional resources",
+    "text": "Additional resources\nA blog post about the inspiration for creating this package and the n_letter_words() function in it:\n blog post"
+  },
+  {
+    "objectID": "packages/denoisr/index.html",
+    "href": "packages/denoisr/index.html",
+    "title": "denoisr",
+    "section": "",
+    "text": "source\n\n\n\n\n documentation"
+  },
+  {
+    "objectID": "packages/denoisr/index.html#overview",
+    "href": "packages/denoisr/index.html#overview",
+    "title": "denoisr",
+    "section": "Overview",
+    "text": "Overview\n\nInstallation\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"StevenGolovkine/denoisr\")"
+  },
+  {
+    "objectID": "packages/FDApy/index.html",
+    "href": "packages/FDApy/index.html",
+    "title": "interpretnn",
+    "section": "",
+    "text": "source\n\n\n\n\n documentation"
+  },
+  {
+    "objectID": "packages/FDApy/index.html#overview",
+    "href": "packages/FDApy/index.html#overview",
+    "title": "interpretnn",
+    "section": "Overview",
+    "text": "Overview\n\nInstallation\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"andrew-mcinerney/interpretnn\")"
+  },
+  {
+    "objectID": "packages/funestim/index.html",
+    "href": "packages/funestim/index.html",
+    "title": "funestim",
+    "section": "",
+    "text": "source\n\n\n\n\n documentation"
+  },
+  {
+    "objectID": "packages/funestim/index.html#overview",
+    "href": "packages/funestim/index.html#overview",
+    "title": "funestim",
+    "section": "Overview",
+    "text": "Overview\n\nInstallation\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"StevenGolovkine/funestim\")"
+  },
+  {
+    "objectID": "packages/simulater/index.html",
+    "href": "packages/simulater/index.html",
+    "title": "simulater",
+    "section": "",
+    "text": "source\n\n\n\n\n documentation"
+  },
+  {
+    "objectID": "packages/simulater/index.html#overview",
+    "href": "packages/simulater/index.html#overview",
+    "title": "simulater",
+    "section": "Overview",
+    "text": "Overview\n\nInstallation\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"StevenGolovkine/simulater\")"
+  },
+  {
+    "objectID": "packages/interpretnn/index.html",
+    "href": "packages/interpretnn/index.html",
+    "title": "interpretnn",
+    "section": "",
+    "text": "source\n\n\n\n\n documentation"
+  },
+  {
+    "objectID": "packages/interpretnn/index.html#overview",
+    "href": "packages/interpretnn/index.html#overview",
+    "title": "interpretnn",
+    "section": "Overview",
+    "text": "Overview\n\nInstallation\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"andrew-mcinerney/interpretnn\")"
+  },
+  {
+    "objectID": "packages/selectnn/index.html",
+    "href": "packages/selectnn/index.html",
+    "title": "selectnn",
+    "section": "",
+    "text": "source\n\n\n\n\n documentation"
+  },
+  {
+    "objectID": "packages/selectnn/index.html#overview",
+    "href": "packages/selectnn/index.html#overview",
+    "title": "selectnn",
+    "section": "Overview",
+    "text": "Overview\n\nInstallation\n\n# install.packages(\"devtools\")\ndevtools::install_github(\"andrew-mcinerney/selectnn\")"
+  },
+  {
+    "objectID": "index1.html",
+    "href": "index1.html",
+    "title": "Silvia Canelón, PhD",
+    "section": "",
+    "text": "I am a researcher and R educator with a love for community. My research leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My community projects value the partnership between open source tools and data literacy as a way to build power and effect change.\nLearn more about me →"
   }
 ]

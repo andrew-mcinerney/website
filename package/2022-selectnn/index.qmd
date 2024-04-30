@@ -1,0 +1,35 @@
+---
+title: "selectnn: A Statistically-Based Approach to Feedforward Neural Network Model Selection"
+author: 
+  - name: Andrew McInerney
+    orcid: 0000-0002-2348-2159
+  - Kevin Burke
+date: '2022-07-09'
+slug: model-selection
+categories:
+  - Neural networks
+  - Model selection
+description: 'R Package'
+subtitle: 'R package for stepwise BIC-based variable and model selection for feedforward neural networks'
+abstract: ''
+links:
+- icon: file-richtext-fill
+  name: Preprint
+  url: https://arxiv.org/abs/2207.04248
+---
+
+![selectnn.](featured.png)
+
+## Description
+
+This package implements the model selection approach detailed in McInerney
+and Burke (2022): "A Statistically-Based Approach to Feedforward Neural Network
+Model Selection".
+The preprint of this paper is available on [arXiv](https://arxiv.org/abs/2207.04248).
+More specifically, the algorithm alternates between selecting the hidden layer 
+complexity and the inputs with the objective of minimizing the BIC.
+The neural network function used is `nnet`, which is available from the R
+package of the same name (Ripley and Venables, 2022).
+
+
+

@@ -1,51 +1,187 @@
 ---
 title: "Andrew McInerney"
-image: headshot.jpg
-about: 
-  template: trestles
-  image-shape: rounded
-  image-width: 15em
+pagetitle: "Andrew McInerney"
+subtitle: "PhD Student at the University of Limerick"
+image: images/headshot.jpg
+
+twitter-card:
+    title: Andrew McInerney
+    description: |
+      Statistician / Data Scientist working on statistical modelling and neural networks.
+    image: images/headshot.jpg
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
   links:
-    - icon: linkedin 
-      text: LinkedIn
-      href: https://www.linkedin.com/in/andrewjmcinerney/
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/andrewmcinerney_
-    - icon: github
-      text: GitHub
-      href: https://github.com/andrew-mcinerney
     - icon: envelope
-      text: Email
+      aria-label: Email
       href: mailto:andrew.mcinerney@ul.ie
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/andrew-mcinerney
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-2348-2159
+    - text: "{{< ai google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=VDoFrZUAAAAJ&hl=en&oi=ao
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://linkedin.com/in/andrewjmcinerney
+    - text: "{{< fa brands twitter >}}"
+      aria-label: X (Twitter)
+      href: https://twitter.com/amcinerney_
+      
+listing: 
+- id: publication1
+  contents: 
+    - "../publication/2023-model-interpretation/index.qmd"
+    - "../publication/2023-model-interpretation/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+  image-placeholder: ../publication/featured.jpg
+- id: publication2
+  contents: 
+    - "../publication/2022-model-selection/index.qmd"
+    - "../publication/2022-model-selection/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+  image-placeholder: ../publication/featured.jpg
+- id: package
+  contents: 
+    - "../package/*/index.qmd"
+    - "../package/*/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+  image-placeholder: ../package/featured.jpg
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+header-includes: >
+  <link rel="stylesheet" href="themes/index.css">
+resources:
+  - themes/index.css
 ---
 
-### Welcome!    
-
-<p class="topbr">I'm Andrew.
-I'm a Ph.D. student with the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/) based in the Department of Mathematics and Statistics at the [University of Limerick](https://www.ul.ie/).
-My current research is centred on a statistical-modelling approach to neural networks, with a particular focus on statistically-based model selection, uncertainty quantifiaction, and interpretation.
-
------------------------------------------------------------------------------------------------------------------------------------
-
-### Education
-
-<div class="topbr">
-<p class="custom-subtitle">`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` **Ph.D. in Statistics** (2020 - Present) | University of Limerick</p>  
-
-<div class="topbr">
-<p class="custom-subtitle">`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` **BSc. in Mathematical Science** (2016 - 2020) | University of Limerick</p>  
+<br><br>
 
 
------------------------------------------------------------------------------------------------------------------------------------
+::: {#hero-heading}
 
-### Experience
+I'm a Ph.D. student with the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/) based in the Department of Mathematics and Statistics at the University of Limerick.
+My current research is centred on a statistical-modelling approach to neural networks, with a particular focus on model selection, uncertainty quantification, and interpretation.
+This work is supervised by [Kevin Burke](https://www.kevinburke.ie).
 
-<div class="topbr">
-<p class="custom-subtitle">`r fontawesome::fa("chalkboard", fill = "#98A08D", a11y = "sem")` **eModerator in Data Analytics** (January 2022 - Present) | University of Limerick</p> 
+:::
 
-<div class="topbr">
-<p class="custom-subtitle">`r fontawesome::fa("car", fill = "#98A08D", a11y = "sem")` **Data Science Intern** (June 2021 - August 2021) | Hertz</p>   
+## Featured
 
-<p class="custom-subtitle">`r fontawesome::fa("microscope", fill = "#98A08D", a11y = "sem")` **Data Analytics Intern** (January 2019 - August 2019) | Regeneron</p>    
-</div>
+:::: {.grid}
+
+::: {.g-col-3}
+#### Publications
+::: {#publication}
+:::
+[See all &rarr;](../publication){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Publications
+::: {#publication}
+:::
+[See all &rarr;](../publication){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Packages
+::: {#package}
+:::
+[See all &rarr;](../package){.about-links .subtitle}
+:::
+
+
+::::
+
+
+<!-- hero-heading -->
+
+```{r import-manual-redirects}
+
+manual_redirects <-
+  readr::read_table(here::here("static", "_manualredirects.txt"),
+                    col_names = FALSE) |> 
+  dplyr::mutate(redirect = paste0(X1, " ", X2, " ", X3))
+
+manual_redirects <- manual_redirects$redirect
+```
+
+```{r write-redirects}
+
+# adapted from Tom Mock: https://github.com/jthomasmock/themockup-blog/blob/master/index.qmd#L27C1-L48C4
+# who adapted from Danielle Navarro: https://blog.djnavarro.net/porting-to-quarto/#netlify-redirects
+
+# function: obtain list of post paths
+list_paths <- function(folder) {
+  posts <-
+    list.dirs(
+    path = c(here::here(folder)),
+    full.names = FALSE,
+    recursive = FALSE
+    ) |> 
+    tibble::as_tibble_col(column_name = "path")  |>
+    dplyr::mutate(folder = folder)
+}
+
+# define post folders
+folders <- c("blog", "project", "publication", "talk")
+
+# list post paths by folder
+posts <- purrr::map(folders, list_paths) |> purrr::list_rbind()
+
+# extract short paths and create redirects
+posts <- 
+  posts |> 
+  dplyr::mutate(
+    # extract the year-slugs
+    short_path = stringr::str_remove(path, "(?!\\d{4}-)\\d{2}-\\d{2}-(?!\\d)"),
+    # create short paths
+    short_path = paste0(folder, "/", short_path),
+    # create lines to insert to a netlify _redirect file
+    redirects = paste0("/", short_path, " ", "/", folder, "/", path)
+    )
+
+# extract redirects
+redirects <- posts$redirects
+
+# combine with manual redirects
+redirects_combined <- c(manual_redirects, redirects)
+
+# write the _redirect file
+writeLines(redirects_combined, here::here("_site", "_redirects"))
+```

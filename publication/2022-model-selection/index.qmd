@@ -1,0 +1,27 @@
+---
+title: "A Statistically-Based Approach to Feedforward Neural Network Model Selection"
+author: 
+  - name: Andrew McInerney
+    orcid: 0000-0002-2348-2159
+  - Kevin Burke
+date: '2022-07-09'
+slug: model-selection
+categories:
+  - Neural networks
+  - Model selection
+description: 'arXiv'
+subtitle: 'Stepwise BIC-based variable and model selection for feedforward neural networks'
+abstract: ''
+links:
+- icon: file-richtext-fill
+  name: Preprint
+  url: https://arxiv.org/abs/2207.04248
+---
+
+## Abstract
+
+Feedforward neural networks (FNNs) can be viewed as non-linear regression models, where covariates enter the model through a combination of weighted summations and non-linear functions. Although these models have some similarities to the models typically used in statistical modelling, the majority of neural network research has been conducted outside of the field of statistics. This has resulted in a lack of statistically-based methodology, and, in particular, there has been little emphasis on model parsimony. Determining the input layer structure is analogous to variable selection, while the structure for the hidden layer relates to model complexity. In practice, neural network model selection is often carried out by comparing models using out-of-sample performance. However, in contrast, the construction of an associated likelihood function opens the door to information-criteria-based variable and architecture selection. A novel model selection method, which performs both input- and hidden-node selection, is proposed using the Bayesian information criterion (BIC) for FNNs. The choice of BIC over out-of-sample performance as the model selection objective function leads to an increased probability of recovering the true model, while parsimoniously achieving favourable out-of-sample performance. Simulation studies are used to evaluate and justify the proposed method, and applications on real data are investigated.
+
+![Model selection schematic.](featured.png){fig-alt="Nodes coloured grey are being considered in current phase. Nodes coloured gold represent optimal nodes in that phase to be brought forward to the next phase.
+"}
+
