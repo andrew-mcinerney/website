@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/icon.png" rel="icon" type="image/png">
+<link href="./assets/silvia/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="themes/theme.css">
 <meta name="twitter:title" content="Silvia Canelón, PhD">
 <meta name="twitter:description" content="Data Analyst at the Penn MedicineCenter for Health Justice">
-<meta name="twitter:image" content="https://andrew-mcinerney.github.io/website/assets\silvia\img\silvia-social.png">
+<meta name="twitter:image" content="https://silviacanelon.com/assets\silvia\img\silvia-social.png">
 <meta name="twitter:image:alt" content="Abstract data visualization depicting tall buildings in Philadelphia as a circle. The text inside the circle reads Philadelphia Skyline">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -79,36 +79,35 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/silvia/img/logo_rounded.svg" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Andrew McInerney</span>
+    <span class="navbar-title">Silvia Canelón</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./contents/about.html">About</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contents/research.html">Research</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contents/code.html">Code</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contents/contact.html">Contact</a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./contents/resources.html"><i class="bi bi-lightbulb" role="img">
-</i> 
-  </a>
+    <a class="nav-link" href="./about/index.qmd">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.qmd">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./talk/index.qmd">Talks</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publication/index.qmd">Publications</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./project/index.qmd">Projects</a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/andrew-mcinerney"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://www.github.com/spcanelon/silvia"><i class="bi bi-github" role="img">
 </i> 
  </a>
   </li>  
@@ -390,7 +389,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/andrew-mcinerney\.github\.io\/website\//);
+      var filterRegex = new RegExp(/https:\/\/silviacanelon\.com/);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -405,7 +404,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
+<script src="https://utteranc.es/client.js" repo="spcanelon/silvia" issue-term="title" theme="body-light" crossorigin="anonymous" async="">
+</script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2023 Silvia Canelón ∙ Made with <a href="https://quarto.org">Quarto</a></div>   
+      <div class="nav-footer-center"><a class="link-dark me-1" href="./accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"></a> <a class="link-dark me-1" href="https://hachyderm.io/@spcanelon" title="mastodon" target="_blank" rel="noopener"></a> <a class="link-dark me-1" href="https://github.com/spcanelon" title="github" target="_blank" rel="noopener"></a> <a class="link-dark me-1" href="https://orcid.org/0000-0003-1709-1394" title="orcid" target="_blank" rel="noopener"></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=GAzkvpcAAAAJ&amp;hl=en&amp;oi=ao" title="Google Scholar" target="_blank" rel="noopener"></a> <a class="link-dark me-1" href="https://linkedin.com/in/spcanelon" title="LinkedIn" target="_blank" rel="noopener"></a></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./accessibility.qmd">Accessibility</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./contact.qmd">Contact</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license.qmd">License</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="./blog/index.xml">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

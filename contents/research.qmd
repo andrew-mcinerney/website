@@ -1,0 +1,76 @@
+---
+knitr:
+  opts_chunk: 
+    collapse: false
+execute: 
+  echo: false
+format: 
+  html: 
+    css: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
+---
+
+## Research
+
+My research focuses on the application on statistical-modelling-based methodology to neural networks. 
+Here are a list of my research outputs.
+
+
+### Preprints
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(htmltools)
+library(fontawesome)
+
+source("../code/functions_research.R")
+
+# bibliography loading
+bibliography <- read.csv("../data/csv/bibliography.csv")
+
+tagList(
+  div(
+    class = "grid",
+    accordeon_mult_code(
+       data = bibliography,
+       id = "accordeon", 
+       show = TRUE
+    )
+  ),
+)
+```
+
+
+### Conference proceedings
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(htmltools)
+library(fontawesome)
+
+source("../code/functions_proceedings.R")
+
+# bibliography loading
+bibliography <- read.csv("../data/csv/bibliography.csv")
+
+tagList(
+  div(
+    class = "grid",
+    accordeon_mult_code(
+       data = bibliography,
+       id = "accordeon", 
+       show = TRUE
+    )
+  ),
+)
+```
+
+
+
+
+

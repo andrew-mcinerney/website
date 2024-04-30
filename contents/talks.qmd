@@ -1,0 +1,39 @@
+---
+knitr:
+  opts_chunk: 
+    collapse: true
+execute: 
+  echo: false
+format: 
+  html: 
+    css: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
+---
+
+## Talks
+
+<!-- <br> -->
+
+<!-- ```{r} -->
+<!-- #| echo: false -->
+<!-- #| warning: false -->
+
+<!-- library(htmltools) -->
+<!-- library(fontawesome) -->
+
+<!-- source("../code/functions_talks.R") -->
+
+<!-- # bibliography loading -->
+<!-- bibliography <- read.csv("../data/csv/talks.csv") -->
+
+<!-- tagList( -->
+<!--   div( -->
+<!--     class = "grid", -->
+<!--     accordeon_mult_code( -->
+<!--        data = bibliography, -->
+<!--        id = "accordeon",  -->
+<!--        show = FALSE -->
+<!--     ) -->
+<!--   ), -->
+<!-- ) -->
+<!-- ``` -->
+

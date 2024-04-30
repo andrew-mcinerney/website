@@ -1,79 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/index.html</loc>
-    <lastmod>2024-04-26T21:57:59.778Z</lastmod>
+    <loc>https://andrewmcinerney.ie/index.html</loc>
+    <lastmod>2024-04-29T18:49:21.385Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/about.html</loc>
-    <lastmod>2024-04-26T22:00:31.158Z</lastmod>
+    <loc>https://andrewmcinerney.ie/about/index.html</loc>
+    <lastmod>2024-04-27T16:00:21.492Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/contact.html</loc>
-    <lastmod>2024-03-27T04:36:00.530Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/index.html</loc>
+    <lastmod>2024-04-30T16:00:33.625Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/research.html</loc>
-    <lastmod>2024-03-27T04:34:58.440Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2023-10-11-epis4equity/index.html</loc>
+    <lastmod>2024-04-26T22:12:56.575Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/ressources.html</loc>
-    <lastmod>2023-09-19T17:46:21.710Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2022-11-10-thinking-big/index.html</loc>
+    <lastmod>2024-04-26T22:12:55.861Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/talks.html</loc>
-    <lastmod>2023-09-26T11:57:43.303Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2022-04-27-dbei-research-day/index.html</loc>
+    <lastmod>2024-04-26T22:12:53.855Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/posts.html</loc>
-    <lastmod>2023-09-19T17:47:23.418Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2021-07-07-presentable-user2021/index.html</loc>
+    <lastmod>2024-04-26T22:12:52.119Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/resources.html</loc>
-    <lastmod>2024-04-26T22:01:28.986Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2021-03-23-amia-informatics-summit/index.html</loc>
+    <lastmod>2024-04-26T22:12:51.288Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/contents/code.html</loc>
-    <lastmod>2024-04-26T22:01:01.705Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2021-02-18-r-teaching-panel/index.html</loc>
+    <lastmod>2024-04-26T22:12:50.031Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/distilltools/index.html</loc>
-    <lastmod>2023-09-23T13:04:30.400Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2020-11-03-xaringan-basics-and-beyond/index.html</loc>
+    <lastmod>2024-04-26T22:12:48.800Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/BradleyTerryScalable/index.html</loc>
-    <lastmod>2023-09-23T12:53:00.061Z</lastmod>
+    <loc>https://andrewmcinerney.ie/publication/index.html</loc>
+    <lastmod>2024-04-27T14:36:06.294Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/EMK/index.html</loc>
-    <lastmod>2023-09-23T12:53:02.916Z</lastmod>
+    <loc>https://andrewmcinerney.ie/packages/selectnn/index.html</loc>
+    <lastmod>2023-09-23T14:35:04.314Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/denoisr/index.html</loc>
-    <lastmod>2023-09-23T14:05:22.887Z</lastmod>
+    <loc>https://andrewmcinerney.ie/license.html</loc>
+    <lastmod>2024-04-26T22:09:06.539Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/FDApy/index.html</loc>
-    <lastmod>2023-09-23T14:21:15.859Z</lastmod>
+    <loc>https://andrewmcinerney.ie/contact.html</loc>
+    <lastmod>2024-04-27T14:52:59.382Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/funestim/index.html</loc>
-    <lastmod>2023-09-23T14:05:31.720Z</lastmod>
+    <loc>https://andrewmcinerney.ie/docs/packages/selectnn/index.html</loc>
+    <lastmod>2023-09-23T14:35:04.314Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/simulater/index.html</loc>
-    <lastmod>2023-09-23T14:05:36.217Z</lastmod>
+    <loc>https://andrewmcinerney.ie/packages/interpretnn/index.html</loc>
+    <lastmod>2023-09-23T14:32:36.805Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/interpretnn/index.html</loc>
-    <lastmod>2023-09-26T11:59:58.141Z</lastmod>
+    <loc>https://andrewmcinerney.ie/publication/2022-model-selection/index.html</loc>
+    <lastmod>2024-04-27T14:32:58.507Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/packages/selectnn/index.html</loc>
-    <lastmod>2024-04-26T22:52:01.240Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2020-08-31-tour-of-the-tidyverse/index.html</loc>
+    <lastmod>2024-04-26T22:12:48.162Z</lastmod>
   </url>
   <url>
-    <loc>https://andrew-mcinerney.github.io/website/index1.html</loc>
-    <lastmod>2024-04-26T22:52:30.479Z</lastmod>
+    <loc>https://andrewmcinerney.ie/talk/2020-12-17-introduccion-xaringan/index.html</loc>
+    <lastmod>2024-04-26T22:12:49.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/talk/2021-03-16-xaringan-deploy-demo/index.html</loc>
+    <lastmod>2024-04-26T22:12:50.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/talk/2021-05-04-data-viz-accessibility/index.html</loc>
+    <lastmod>2024-04-26T22:12:51.734Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/talk/2022-02-11-tdw-ehr-lessons/index.html</loc>
+    <lastmod>2024-04-26T22:12:52.571Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/talk/2022-09-29-ccd-sips/index.html</loc>
+    <lastmod>2024-04-26T22:12:54.135Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/talk/2023-03-09-penn-community-scholars/index.html</loc>
+    <lastmod>2024-04-26T22:12:56.420Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/talk/2024-03-26-env-justice/index.html</loc>
+    <lastmod>2024-04-26T22:12:56.743Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/package/index.html</loc>
+    <lastmod>2024-04-27T16:42:48.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/package/2022-selectnn/index.html</loc>
+    <lastmod>2024-04-27T16:58:17.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andrewmcinerney.ie/publication/2023-model-interpretation/index.html</loc>
+    <lastmod>2024-04-29T18:32:33.156Z</lastmod>
   </url>
 </urlset>

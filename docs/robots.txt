@@ -1,1 +1,1 @@
-Sitemap: https://andrew-mcinerney.github.io/website/sitemap.xml
+Sitemap: https://andrewmcinerney.ie/sitemap.xml
