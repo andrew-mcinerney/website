@@ -78,34 +78,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-talk .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-talk'] = new List('listing-talk', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-publication .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -165,12 +137,9 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="themes/theme.css">
+<link rel="stylesheet" href="../themes/theme.css">
 <meta name="twitter:title" content="Andrew McInerney - About Me">
-<meta name="twitter:image" content="https://andrewmcinerney.ie/talk/2024-03-26-env-justice/featured.png">
-<meta name="twitter:image-height" content="930">
-<meta name="twitter:image-width" content="1776">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -194,16 +163,20 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../talk/index.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../publication/index.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../package/index.html"> 
+<span class="menu-text">R Packages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -247,45 +220,17 @@ window.Quarto = {
 <section id="lately" class="level2">
 <h2 class="anchored" data-anchor-id="lately">Lately …</h2>
 <div class="grid">
-<section id="talks" class="level4 g-col-3">
-<h4 class="anchored" data-anchor-id="talks">Talks</h4>
-<div id="listing-talk" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Research" data-listing-date-sort="1711476000000" data-listing-file-modified-sort="1714169576743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
-<a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img src="../talk/2024-03-26-env-justice/featured.png" class="thumbnail-image card-img" style="height: 200;">
-</p>
-</a><div class="card-body post-contents"><a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Environmental Justice and Policy Panel
-</h5>
-</a><div class="card-subtitle listing-subtitle"><a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
-Panel discussion hosted by </a><a href="https://www.pspdg.com">Penn Science Policy and Diplomacy Group</a> &amp; <a href="https://www.climateleadersatpenn.com/">Climate Leaders <span class="citation" data-cites="Penn">@Penn</span></a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="../talk" class="about-links subtitle">See all →</a></p>
-</section>
 <section id="publications" class="level4 g-col-3">
 <h4 class="anchored" data-anchor-id="publications">Publications</h4>
 <div id="listing-publication" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Neural networks,Model selection" data-listing-date-sort="1657321200000" data-listing-file-modified-sort="1714228378507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
-<a href="../publication/2022-model-selection/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Neural networks,Model interpretation" data-listing-date-sort="1668384000000" data-listing-file-modified-sort="1714415553156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
+<a href="../publication/2023-model-interpretation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="..\publication\2022-model-selection\featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="..\publication\2023-model-interpretation\featured.png" alt="plotnn results." style="height: 200;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-A Statistically-Based Approach to Feedforward Neural Network Model Selection
+Feedforward Neural Networks as Statistical Models: Improving Interpretability Through Uncertainty Quantification
 </h5>
 </div>
 </div>
@@ -872,7 +817,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© 2024 Andrew McInerney ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-1" href="https://github.com/andrew-mcinerney" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0002-2348-2159" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid" style="color:black"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=VDoFrZUAAAAJ&amp;hl=en&amp;oi=ao" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar" style="color:black"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/andrewjmcinerney" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></p>
+<p><a class="link-dark me-1" href="mailto:andrew.mcinerney@ul.ie" title="email" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a> <a class="link-dark me-1" href="https://github.com/andrew-mcinerney" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0002-2348-2159" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid" style="color:black"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=VDoFrZUAAAAJ&amp;hl=en&amp;oi=ao" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar" style="color:black"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/andrewjmcinerney" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://twitter.com/amcinerney_" title="twitter" target="_blank" rel="noopener"><i class="fa-brands fa-twitter" aria-label="twitter"></i></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

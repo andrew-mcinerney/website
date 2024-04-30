@@ -13,9 +13,9 @@ description: 'arXiv'
 subtitle: 'Hypothesis testing and covariate-effect plots for feedforward neural networks'
 abstract: ''
 links:
-- icon: file-richtext-fill
-  name: Preprint
-  url: https://arxiv.org/abs/2311.08139
+  - icon: file-richtext-fill
+    name: Preprint
+    url: https://arxiv.org/abs/2311.08139
 ---
 
 ## Abstract

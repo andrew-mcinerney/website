@@ -1,7 +1,7 @@
 ---
 title: "Publications" 
 description: |
-  Here is a list of my publications, conference proceedings and preprints.
+  Here are my publications, conference proceedings and preprints.
 listing: 
   contents: 
     - "**/index.qmd"
@@ -23,7 +23,7 @@ format:
 title-block-banner: false
 
 header-includes: >
-  <link rel="stylesheet" href="../theme/listing-default.css">
+  <link rel="stylesheet" href="../themes/listing-default.css">
 resources:
-  - ../theme/listing-default.css
+  - ../themes/listing-default.css
 ---

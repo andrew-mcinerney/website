@@ -32,50 +32,6 @@ about:
     - text: "{{< fa brands twitter >}}"
       aria-label: X (Twitter)
       href: https://twitter.com/amcinerney_
-      
-listing: 
-- id: publication1
-  contents: 
-    - "../publication/2023-model-interpretation/index.qmd"
-    - "../publication/2023-model-interpretation/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
-- id: publication2
-  contents: 
-    - "../publication/2022-model-selection/index.qmd"
-    - "../publication/2022-model-selection/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
-- id: package
-  contents: 
-    - "../package/*/index.qmd"
-    - "../package/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../package/featured.jpg
 page-layout: full
 
 execute: 
@@ -100,33 +56,33 @@ This work is supervised by [Kevin Burke](https://www.kevinburke.ie).
 
 :::
 
-## Featured
+<!-- ## Featured -->
 
-:::: {.grid}
+<!-- :::: {.grid} -->
 
-::: {.g-col-3}
-#### Publications
-::: {#publication}
-:::
-[See all &rarr;](../publication){.about-links .subtitle}
-:::
+<!-- ::: {.g-col-3} -->
+<!-- #### Publications -->
+<!-- ::: {#publication} -->
+<!-- ::: -->
+<!-- [See all &rarr;](../publication){.about-links .subtitle} -->
+<!-- ::: -->
 
-::: {.g-col-3}
-#### Publications
-::: {#publication}
-:::
-[See all &rarr;](../publication){.about-links .subtitle}
-:::
+<!-- ::: {.g-col-3} -->
+<!-- #### Publications -->
+<!-- ::: {#publication} -->
+<!-- ::: -->
+<!-- [See all &rarr;](../publication){.about-links .subtitle} -->
+<!-- ::: -->
 
-::: {.g-col-3}
-#### Packages
-::: {#package}
-:::
-[See all &rarr;](../package){.about-links .subtitle}
-:::
+<!-- ::: {.g-col-3} -->
+<!-- #### Packages -->
+<!-- ::: {#package} -->
+<!-- ::: -->
+<!-- [See all &rarr;](../package){.about-links .subtitle} -->
+<!-- ::: -->
 
 
-::::
+<!-- :::: -->
 
 
 <!-- hero-heading -->
@@ -183,5 +139,5 @@ redirects <- posts$redirects
 redirects_combined <- c(manual_redirects, redirects)
 
 # write the _redirect file
-writeLines(redirects_combined, here::here("_site", "_redirects"))
+writeLines(redirects_combined, here::here("docs", "_redirects"))
 ```

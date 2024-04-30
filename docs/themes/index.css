@@ -3,6 +3,7 @@
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.1em !important;
+  text-align: right !important;
 }
 
 /* subtitle + Learn More About Me */
@@ -12,11 +13,12 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-align: right !important;
 }
 
 /* heading, subtitle, and blurb */
 .entity-contents {
-  text-align: right !important;
+  text-align: left !important;
   padding: 0 2em 0 2em;
 }
 
