@@ -2,13 +2,13 @@
 title: "Andrew McInerney"
 pagetitle: "Andrew McInerney"
 subtitle: "PhD Student at the University of Limerick"
-image: images/headshot.jpg
+image: images/headshot.jfif
 
 twitter-card:
     title: Andrew McInerney
     description: |
       Statistician / Data Scientist working on statistical modelling and neural networks.
-    image: images/headshot.jpg
+    image: images/headshot.jfif
 
 about:
   template: solana
