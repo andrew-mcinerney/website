@@ -1,18 +1,21 @@
 ---
-title: "A Statistically-Based Approach to Feedforward Neural Network Model Selection"
+title: "A Statistical Modelling Approach to Feedforward Neural Network Model Selection"
 author: 
   - name: Andrew McInerney
     orcid: 0000-0002-2348-2159
   - Kevin Burke
-date: '2022-07-09'
+date: '2025-08-01'
 slug: model-selection
 categories:
   - Neural networks
   - Model selection
-description: 'arXiv'
+description: 'Statistical Modelling, 25(4), 323–342'
 subtitle: 'Stepwise BIC-based variable and model selection for feedforward neural networks'
 abstract: ''
 links:
+- icon: journal-text
+  name: Journal article
+  url: https://doi.org/10.1177/1471082X241258261
 - icon: file-richtext-fill
   name: Preprint
   url: https://arxiv.org/abs/2207.04248

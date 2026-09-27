@@ -1,143 +1,152 @@
 ---
 title: "Andrew McInerney"
-pagetitle: "Andrew McInerney"
-subtitle: "PhD Student at the University of Limerick"
+pagetitle: "Andrew McInerney | Statistician & Researcher"
+description: "Postdoctoral researcher developing statistical methods for neural-network model selection, inference, uncertainty quantification, and interpretation."
 image: images/headshot.jfif
-
-twitter-card:
-    title: Andrew McInerney
-    description: |
-      Statistician / Data Scientist working on statistical modelling and neural networks.
-    image: images/headshot.jfif
-
-about:
-  template: solana
-  image-width: 28em
-  id: hero-heading
-  links:
-    - icon: envelope
-      aria-label: Email
-      href: mailto:andrew.mcinerney@ul.ie
-    - icon: github
-      aria-label: GitHub
-      href: https://github.com/andrew-mcinerney
-    - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0002-2348-2159
-    - text: "{{< ai google-scholar >}}"
-      aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=VDoFrZUAAAAJ&hl=en&oi=ao
-    - icon: linkedin
-      aria-label: "LinkedIn"
-      href: https://linkedin.com/in/andrewjmcinerney
-    - text: "{{< fa brands twitter >}}"
-      aria-label: X (Twitter)
-      href: https://twitter.com/amcinerney_
 page-layout: full
-
-execute: 
-  freeze: false
-  echo: false
-  warning: false
-
-header-includes: >
-  <link rel="stylesheet" href="themes/index.css">
-resources:
-  - themes/index.css
+title-block-style: none
+format:
+  html:
+    body-classes: home-page
 ---
 
-<br><br>
+::: {.hero}
+::: {.hero-grid}
+::: {.hero-copy}
+<p class="eyebrow">Statistician · Researcher · R developer</p>
 
+# Bringing statistical clarity to neural networks
 
-::: {#hero-heading}
+I am a postdoctoral researcher at the University of Limerick. My work treats neural networks as statistical models—making their structure more parsimonious, their uncertainty more explicit, and their results easier to interpret.
 
-I'm a Ph.D. student with the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/) based in the Department of Mathematics and Statistics at the University of Limerick.
-My current research is centred on a statistical-modelling approach to neural networks, with a particular focus on model selection, uncertainty quantification, and interpretation.
-This work is supervised by [Kevin Burke](https://www.kevinburke.ie).
-
+::: {.hero-actions}
+[Explore my research](#research){.btn .btn-primary .btn-lg}
+[View publications](publication/index.qmd){.btn .btn-outline-primary .btn-lg}
 :::
 
-<!-- ## Featured -->
+::: {.profile-links}
+[{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0002-2348-2159)
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=VDoFrZUAAAAJ&hl=en)
+[{{< fa brands github >}} GitHub](https://github.com/andrew-mcinerney)
+:::
+:::
 
-<!-- :::: {.grid} -->
+::: {.hero-portrait}
+<img src="images/headshot.jfif" alt="Andrew McInerney" class="portrait">
+:::
+:::
+:::
 
-<!-- ::: {.g-col-3} -->
-<!-- #### Publications -->
-<!-- ::: {#publication} -->
-<!-- ::: -->
-<!-- [See all &rarr;](../publication){.about-links .subtitle} -->
-<!-- ::: -->
+::: {.section-shell #research}
+<p class="section-kicker">Research</p>
 
-<!-- ::: {.g-col-3} -->
-<!-- #### Publications -->
-<!-- ::: {#publication} -->
-<!-- ::: -->
-<!-- [See all &rarr;](../publication){.about-links .subtitle} -->
-<!-- ::: -->
+## Neural networks through a statistical lens
 
-<!-- ::: {.g-col-3} -->
-<!-- #### Packages -->
-<!-- ::: {#package} -->
-<!-- ::: -->
-<!-- [See all &rarr;](../package){.about-links .subtitle} -->
-<!-- ::: -->
+My research sits at the intersection of statistical modelling and machine learning. I develop practical methods that retain the flexibility of neural networks while supporting the questions statisticians care about: which variables matter, how complex should a model be, and how certain are its conclusions?
 
+::: {.focus-grid}
+::: {.focus-card}
+<span class="card-index">01</span>
 
-<!-- :::: -->
+### Model selection
 
+Likelihood- and information-criterion-based approaches for selecting inputs and architecture, with an emphasis on parsimony and reproducibility.
+:::
 
-<!-- hero-heading -->
+::: {.focus-card}
+<span class="card-index">02</span>
 
-```{r import-manual-redirects}
+### Statistical inference
 
-manual_redirects <-
-  readr::read_table(here::here("static", "_manualredirects.txt"),
-                    col_names = FALSE) |> 
-  dplyr::mutate(redirect = paste0(X1, " ", X2, " ", X3))
+Methods for hypothesis testing and uncertainty quantification that make neural-network parameters and predictions more informative.
+:::
 
-manual_redirects <- manual_redirects$redirect
-```
+::: {.focus-card}
+<span class="card-index">03</span>
 
-```{r write-redirects}
+### Interpretation
 
-# adapted from Tom Mock: https://github.com/jthomasmock/themockup-blog/blob/master/index.qmd#L27C1-L48C4
-# who adapted from Danielle Navarro: https://blog.djnavarro.net/porting-to-quarto/#netlify-redirects
+Covariate-effect visualisations and open-source tools that help researchers inspect fitted neural networks as statistical models.
+:::
+:::
+:::
 
-# function: obtain list of post paths
-list_paths <- function(folder) {
-  posts <-
-    list.dirs(
-    path = c(here::here(folder)),
-    full.names = FALSE,
-    recursive = FALSE
-    ) |> 
-    tibble::as_tibble_col(column_name = "path")  |>
-    dplyr::mutate(folder = folder)
-}
+::: {.section-shell .selected-work}
+<p class="section-kicker">Selected work</p>
 
-# define post folders
-folders <- c("blog", "project", "publication", "talk")
+## Recent research
 
-# list post paths by folder
-posts <- purrr::map(folders, list_paths) |> purrr::list_rbind()
+::: {.work-grid}
+::: {.work-card .work-card-featured}
+<p class="work-meta">Statistical Modelling · 2025</p>
 
-# extract short paths and create redirects
-posts <- 
-  posts |> 
-  dplyr::mutate(
-    # extract the year-slugs
-    short_path = stringr::str_remove(path, "(?!\\d{4}-)\\d{2}-\\d{2}-(?!\\d)"),
-    # create short paths
-    short_path = paste0(folder, "/", short_path),
-    # create lines to insert to a netlify _redirect file
-    redirects = paste0("/", short_path, " ", "/", folder, "/", path)
-    )
+### A statistical modelling approach to feedforward neural network model selection
 
-# extract redirects
-redirects <- posts$redirects
+A BIC-based framework for selecting both input variables and hidden-node complexity in feedforward neural networks.
 
-# combine with manual redirects
-redirects_combined <- c(manual_redirects, redirects)
+[Read the paper {{< fa arrow-right >}}](https://doi.org/10.1177/1471082X241258261){.text-link}
+:::
 
-# write the _redirect file
-writeLines(redirects_combined, here::here("docs", "_redirects"))
-```
+::: {.work-card}
+<p class="work-meta">arXiv · 2023</p>
+
+### Feedforward neural networks as statistical models
+
+Hypothesis tests, uncertainty quantification, and covariate-effect plots for more interpretable neural-network analyses.
+
+[Read the preprint {{< fa arrow-right >}}](https://arxiv.org/abs/2311.08139){.text-link}
+:::
+:::
+
+<div class="section-cta">[See all publications](publication/index.qmd){.btn .btn-outline-primary}</div>
+:::
+
+::: {.section-shell .software-section}
+<p class="section-kicker">Open-source software</p>
+
+## Research you can use
+
+::: {.software-grid}
+::: {.software-card}
+::: {.software-mark}
+`R`
+:::
+
+### interpretnn
+
+Statistical inference and interpretation for fitted neural networks, with support for models from `nnet`, `neuralnet`, Keras, ANN, and torch.
+
+[Package website](https://andrew-mcinerney.github.io/interpretnn/) · [Source](https://github.com/andrew-mcinerney/interpretnn)
+:::
+
+::: {.software-card}
+::: {.software-mark}
+`R`
+:::
+
+### selectnn
+
+Stepwise BIC-based variable and architecture selection for feedforward neural networks fitted with `nnet`.
+
+[Package website](https://andrew-mcinerney.github.io/selectnn/) · [Source](https://github.com/andrew-mcinerney/selectnn)
+:::
+:::
+
+<div class="section-cta">[Explore the software](package/index.qmd){.btn .btn-outline-primary}</div>
+:::
+
+::: {.contact-band}
+::: {.contact-band-inner}
+::: {.contact-band-copy}
+<p class="section-kicker">Let’s collaborate</p>
+
+## Interested in statistical machine learning?
+
+I’m always happy to discuss research, software, or potential collaborations.
+:::
+
+::: {.contact-band-action}
+[Get in touch](contact.qmd){.btn .btn-light .btn-lg}
+:::
+:::
+:::

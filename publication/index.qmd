@@ -1,29 +1,17 @@
 ---
-title: "Publications" 
-description: |
-  Here are my publications, conference proceedings and preprints.
-listing: 
-  contents: 
+title: "Publications"
+description: "Peer-reviewed research, preprints, and doctoral work on statistical modelling and neural networks."
+listing:
+  contents:
     - "**/index.qmd"
-    - "**/index.markdown"
-    - "**/index.md"
   sort: "date desc"
   type: default
-  categories: false
+  categories: true
   sort-ui: false
   filter-ui: false
-  fields: [title, author, categories, date]
+  fields: [image, title, author, description, date, categories]
   image-align: left
-  # image-height: 10em
-  page-size: 5
-
-format: 
-  html: 
-    page-layout: full
+  page-size: 10
+page-layout: full
 title-block-banner: false
-
-header-includes: >
-  <link rel="stylesheet" href="../themes/listing-default.css">
-resources:
-  - ../themes/listing-default.css
 ---

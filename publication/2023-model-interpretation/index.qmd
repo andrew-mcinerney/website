@@ -4,12 +4,12 @@ author:
   - name: Andrew McInerney
     orcid: 0000-0002-2348-2159
   - Kevin Burke
-date: '2022-11-14'
+date: '2023-11-14'
 slug: model-interpretation
 categories:
   - Neural networks
   - Model interpretation
-description: 'arXiv'
+description: 'arXiv preprint arXiv:2311.08139'
 subtitle: 'Hypothesis testing and covariate-effect plots for feedforward neural networks'
 abstract: ''
 links:
