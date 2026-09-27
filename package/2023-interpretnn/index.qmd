@@ -1,0 +1,45 @@
+---
+title: "interpretnn"
+author:
+  - name: Andrew McInerney
+    orcid: 0000-0002-2348-2159
+  - Kevin Burke
+date: '2023-11-14'
+categories:
+  - Neural networks
+  - Statistical inference
+  - Interpretation
+description: 'Statistical inference and interpretation for fitted neural networks'
+subtitle: 'An R package for uncertainty quantification, hypothesis testing, and covariate-effect plots'
+links:
+  - icon: globe
+    name: Package website
+    url: https://andrew-mcinerney.github.io/interpretnn/
+  - icon: github
+    name: Source
+    url: https://github.com/andrew-mcinerney/interpretnn
+  - icon: box
+    name: CRAN
+    url: https://cran.r-project.org/package=interpretnn
+  - icon: file-richtext-fill
+    name: Preprint
+    url: https://arxiv.org/abs/2311.08139
+---
+
+![interpretnn covariate-effect visualisation.](../../images/interpretnn.png)
+
+## Description
+
+`interpretnn` adds statistically grounded inference and interpretation to fitted feedforward neural networks. It provides summary tables, hypothesis tests, confidence intervals, and covariate-effect plots.
+
+The package supports neural networks fitted with `nnet`, `neuralnet`, Keras, ANN, and torch.
+
+```r
+install.packages("interpretnn")
+
+library(interpretnn)
+interpreted_fit <- interpretnn(fit)
+summary(interpreted_fit)
+plot(interpreted_fit, conf_int = TRUE)
+```
+

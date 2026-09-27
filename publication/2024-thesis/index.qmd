@@ -1,0 +1,24 @@
+---
+title: "A Statistical Approach to Model Selection and Uncertainty Quantification in Neural Networks"
+author:
+  - name: Andrew McInerney
+    orcid: 0000-0002-2348-2159
+date: '2024-01-01'
+categories:
+  - Neural networks
+  - Model selection
+  - Uncertainty quantification
+description: 'PhD thesis, University of Limerick'
+subtitle: 'Doctoral research connecting statistical modelling, model selection, inference, and neural networks'
+links:
+  - icon: building
+    name: University record
+    url: https://pure.ul.ie/en/publications/a-statistical-approach-to-model-selection-and-uncertainty-quantif/
+---
+
+## Overview
+
+This thesis develops a statistical approach to neural-network model selection and interpretation. It brings likelihood-based reasoning, information criteria, hypothesis testing, and uncertainty quantification into the analysis of feedforward neural networks.
+
+The work focuses on selecting parsimonious architectures and inputs, quantifying uncertainty, and making fitted networks easier to interpret through statistically grounded summaries and covariate-effect visualisations.
+

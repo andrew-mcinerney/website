@@ -5,68 +5,64 @@ project:
 website:
   title: "Andrew McInerney"
   site-url: https://andrewmcinerney.ie
-  description: "PhD Student at the University of Limerick"
+  description: "Statistician and postdoctoral researcher working on interpretable neural networks, model selection, and uncertainty quantification."
   favicon: images/favicon.png
   page-navigation: true
-  twitter-card: true
-  comments: 
-    utterances: 
-      repo: andrew-mcinerney/website 
-      label: utterances
-      theme: body-light
-      issue-term: title
- 
+  search: false
+  open-graph: true
+  twitter-card:
+    creator: "@amcinerney_"
+
   navbar:
     logo: images/favicon.png
-    tools:
-    - icon: github
-      href: https://www.github.com/andrew-mcinerney/website
+    logo-alt: "Andrew McInerney"
+    title: "Andrew McInerney"
+    collapse-below: lg
     right:
-      - text: Talks
-        aria-label: "Talks"
-        href: talk/index.qmd  
+      - text: Research
+        href: index.qmd#research
       - text: Publications
-        aria-label: "Publications"
         href: publication/index.qmd
-      - text: R Packages
-        aria-label: "R Packages"
+      - text: Talks
+        href: talk/index.qmd
+      - text: Software
         href: package/index.qmd
       - text: Contact
-        aria-label: "Contact"
-        href: contact.qmd 
-  
-  page-footer:  
-    left: >-
-     &#169; 2024 Andrew McInerney &#8729; Made with [Quarto](https://quarto.org)
-    center: |
-      <a class="link-dark me-1" href="mailto:andrew.mcinerney@ul.ie" title="email" target="_blank" rel="noopener">{{< fa envelope >}}</a>
-      <a class="link-dark me-1" href="https://github.com/andrew-mcinerney" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-      <a class="link-dark me-1" href="https://orcid.org/0000-0002-2348-2159" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
-      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=VDoFrZUAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
-      <a class="link-dark me-1" href="https://linkedin.com/in/andrewjmcinerney" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
-      <a class="link-dark me-1" href="https://twitter.com/amcinerney_" title="twitter" target="_blank" rel="noopener">{{< fa brands twitter >}}</a>
+        href: contact.qmd
+      - icon: github
+        href: https://github.com/andrew-mcinerney
+        aria-label: GitHub
 
-    right: 
-      - text: "Contact"
-        aria-label: "Contact"
-        href: "contact.qmd"
-      - text: "License"
-        aria-label: "License Details"
-        href: license.qmd
+  page-footer:
+    left: "© 2026 Andrew McInerney"
+    center: "Built with [Quarto](https://quarto.org)"
+    right:
+      - icon: envelope
+        href: mailto:andrew.mcinerney@ul.ie
+        aria-label: Email
+      - icon: github
+        href: https://github.com/andrew-mcinerney
+        aria-label: GitHub
+      - text: "ORCID"
+        href: https://orcid.org/0000-0002-2348-2159
+        aria-label: ORCID
+      - icon: linkedin
+        href: https://linkedin.com/in/andrewjmcinerney
+        aria-label: LinkedIn
 
 format:
   html:
     theme:
       light: themes/andrew-theme-light.scss
-      dark: themes/andrew-theme-light.scss
-    css: [themes/theme.css]
+      dark: themes/andrew-theme-dark.scss
+    css: styles.css
     smooth-scroll: true
     link-external-newwindow: true
-    grid: 
-      sidebar-width: 250px
-      body-width: 900px
-      margin-width: 300px
+    link-external-icon: false
+    anchor-sections: false
+    grid:
+      body-width: 1100px
+      margin-width: 260px
 
-execute: 
+execute:
   freeze: auto
-

@@ -1,44 +1,54 @@
 ---
-pagetitle: Andrew McInerney - Contact
-name: Contact Form
-page-layout: article
-format: 
-  html: 
-    grid:
-      margin-width: 0px
-      sidebar-width: 0px
-
-header-includes: >
-  <link rel="stylesheet" href="themes/contact.css">
-resources:
-  - themes/contact.css
+title: "Contact"
+pagetitle: "Contact | Andrew McInerney"
+description: "Get in touch about statistical modelling, neural networks, research software, or collaboration."
+page-layout: full
+title-block-style: none
+format:
+  html:
+    body-classes: contact-layout
 ---
 
-## I'd love to hear from you!
+::: {.contact-page}
+::: {.contact-intro}
+<p class="section-kicker">Contact</p>
 
-You can drop me an e-mail or find me on elsewhere online:
+# Let’s start a conversation
 
-::: {.grid .text-center}
+If you would like to discuss statistical modelling, neural networks, research software, or a potential collaboration, email is the best way to reach me.
 
-::: {.g-col-12 .g-col-sm-4}
-<div class="card h-100 border-light">
-<a href="mailto:andrew.mcinerney@ul.ie" class="card-link heading-font">{{< fa envelope-square >}} E-Mail</a>
-</div>
-
+[andrew.mcinerney@ul.ie](mailto:andrew.mcinerney@ul.ie){.contact-email}
 :::
 
-::: {.g-col-12 .g-col-sm-4}
-<div class="card h-100 border-light">
-<a href="https://github.com/andrew-mcinerney" class="card-link heading-font"><i class="fa-brands fa-github-square"></i> Github</a>
-</div>
+::: {.contact-links}
+::: {.contact-link-card}
+{{< fa brands github size=2xl >}}
 
+## GitHub
+
+Code, packages, and ongoing projects.
+
+[andrew-mcinerney](https://github.com/andrew-mcinerney)
 :::
 
-::: {.g-col-12 .g-col-sm-4}
-<div class="card h-100 border-light">
-<a href="https://www.linkedin.com/in/andrewjmcinerney/" class="card-link heading-font"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-</div>
+::: {.contact-link-card}
+{{< ai orcid size=2xl >}}
 
+## ORCID
+
+Research record and persistent identifier.
+
+[0000-0002-2348-2159](https://orcid.org/0000-0002-2348-2159)
 :::
 
+::: {.contact-link-card}
+{{< fa brands linkedin size=2xl >}}
+
+## LinkedIn
+
+Professional profile and updates.
+
+[Connect on LinkedIn](https://linkedin.com/in/andrewjmcinerney)
+:::
+:::
 :::

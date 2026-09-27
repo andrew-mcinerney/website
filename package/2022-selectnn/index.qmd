@@ -1,5 +1,5 @@
 ---
-title: "selectnn: A Statistically-Based Approach to Feedforward Neural Network Model Selection"
+title: "selectnn"
 author: 
   - name: Andrew McInerney
     orcid: 0000-0002-2348-2159
@@ -9,10 +9,16 @@ slug: model-selection
 categories:
   - Neural networks
   - Model selection
-description: 'R Package'
-subtitle: 'R package for stepwise BIC-based variable and model selection for feedforward neural networks'
+description: 'BIC-based variable and architecture selection for feedforward neural networks'
+subtitle: 'An R package for parsimonious feedforward neural-network model selection'
 abstract: ''
 links:
+- icon: globe
+  name: Package website
+  url: https://andrew-mcinerney.github.io/selectnn/
+- icon: github
+  name: Source
+  url: https://github.com/andrew-mcinerney/selectnn
 - icon: file-richtext-fill
   name: Preprint
   url: https://arxiv.org/abs/2207.04248
@@ -22,14 +28,17 @@ links:
 
 ## Description
 
-This package implements the model selection approach detailed in McInerney
-and Burke (2022): "A Statistically-Based Approach to Feedforward Neural Network
-Model Selection".
-The preprint of this paper is available on [arXiv](https://arxiv.org/abs/2207.04248).
-More specifically, the algorithm alternates between selecting the hidden layer 
-complexity and the inputs with the objective of minimizing the BIC.
-The neural network function used is `nnet`, which is available from the R
-package of the same name (Ripley and Venables, 2022).
+`selectnn` implements the model-selection approach developed in McInerney and Burke (2025). The algorithm alternates between selecting hidden-layer complexity and input variables, using the Bayesian information criterion (BIC) as its objective.
+
+The package works with feedforward neural networks fitted using `nnet` and supports both matrix and formula interfaces.
+
+```r
+# install.packages("devtools")
+devtools::install_github("andrew-mcinerney/selectnn")
+
+library(selectnn)
+fit <- selectnn(y ~ ., data = training_data, Q = 10, n_init = 5)
+```
 
 
 
